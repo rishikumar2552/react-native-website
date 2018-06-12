@@ -2,7 +2,6 @@
 id: gesture-responder-system
 title: Gesture Responder System
 ---
-
 The gesture responder system manages the lifecycle of gestures in your app. A touch can go through several phases as the app determines what the user's intention is. For example, the app needs to determine if the touch is scrolling, sliding on a widget, or tapping. This can even change during the duration of a touch. There can also be multiple simultaneous touches.
 
 The touch responder system is needed to allow components to negotiate these touch interactions without any additional knowledge about their parent or child components.
